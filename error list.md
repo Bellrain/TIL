@@ -13,3 +13,9 @@ git pull origin main
 git push -f origin main
 ```
 을 사용해 강제로 push 했을경우 리포지토리에 있는파일이 사라질 수있음
+
+이유는 모르겠지만 
+```
+git branch -M main
+```
+을 쳐주면 해결됨
