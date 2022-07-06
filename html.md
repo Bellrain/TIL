@@ -4,9 +4,17 @@
 
 하이퍼 텍스트를 가장 중요한 특징으로 하는 마크업 이라는 형식을 가진 컴퓨터 프로그래밍 언어
 웹 브라우저와 대화하는 언어
-
-
-
+```
+<!DOCTYPE html>
+<head> // 상세설명
+	<meta charset="utf-8">/// 대충 우리 이런 언어로 쓸거다
+	<meta name="viewport" content="width=device-width"> 
+	<title>JS Bin</title>
+</head>
+<body> //실제 사용자들한테 보여질 내용
+ <h1>heading</h1>
+</body>
+```
 
 
 ## tag
@@ -45,7 +53,7 @@ html 의 가장 기본적인 문법
 
 
 
-## 속성
+## 속성 =attribute
 
 ```
 <a href="인터넷 주소">(황정민 - 악마를 보았다)</a>
